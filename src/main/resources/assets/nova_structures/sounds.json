@@ -1,0 +1,108 @@
+{
+  "music.dungeon.lone_citadel": {
+    "sounds": [
+	  {
+        "name": "music/game/key",
+        "stream": true
+      },
+	  {
+        "name": "music/game/dry_hands",
+        "stream": true
+      },
+	  {
+        "name": "music/game/oxygene",
+        "stream": true
+      },
+      {
+        "name": "music/game/infinite_amethyst",
+        "stream": true,
+        "volume": 0.4
+      },
+	  {
+        "name": "music/game/featherfall",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/komorebi",
+        "stream": true,
+        "volume": 0.8
+      },
+      {
+        "name": "structure_music:music/c418_unused/kyoto",
+        "stream": true,
+        "volume": 0.4,
+		"weight": 2
+      }
+    ]
+  },
+  "music.dungeon.toxic_lair": {
+    "sounds": [
+      {
+        "name": "music/game/swamp/aerie",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/swamp/firebugs",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/swamp/labyrinthine",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/watcher",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/pokopoko",
+        "stream": true,
+        "volume": 0.8,
+        "weight": 2
+      }
+    ]
+  },
+  "music.dungeon.crypt": {
+    "sounds": [
+      {
+        "name": "music/game/key",
+        "stream": true
+      },
+      {
+        "name": "music/game/mice_on_venus",
+        "stream": true
+      },
+      {
+        "name": "music/game/oxygene",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/wending",
+        "stream": true
+      },
+      {
+        "name": "music/game/yakusoku",
+        "stream": true,
+        "volume": 0.8
+      },
+      {
+        "name": "music/game/eld_unkown",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "structure_music:music/c418_unused/excuse",
+        "stream": true,
+        "weight": 2
+      }
+    ]
+  }
+}
+

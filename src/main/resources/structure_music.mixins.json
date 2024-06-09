@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fusionmc.structure_music.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+
+  ],
+  "client": [
+    "MixinMinecraftClient"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

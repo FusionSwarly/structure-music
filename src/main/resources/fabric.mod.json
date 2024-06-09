@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "structure_music",
+  "version": "${version}",
+  "name": "Structure Dependent Music",
+  "description": "Adds Music to Structures.",
+  "authors": ["Fusion_MC"],
+  "contact": {
+    "repo": "https://github.com/conta/structure-music"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/structure_music/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fusionmc.structure_music.StructureDependentMusic"
+    ],
+    "client": [
+      "fusionmc.structure_music.client.ClientStructureMusic"
+    ]
+  },
+  "mixins": [
+    "structure_music.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
