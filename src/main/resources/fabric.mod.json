@@ -3,13 +3,14 @@
   "id": "structure_music",
   "version": "${version}",
   "name": "Structure Dependent Music",
-  "description": "Adds Music to Structures.",
+  "description": "Allows for structures to have background music.",
   "authors": ["Fusion_MC"],
   "contact": {
-    "repo": "https://github.com/conta/structure-music"
+    "sources": "https://github.com/FusionSwarly/structure-music",
+    "issues": "https://github.com/FusionSwarly/structure-music/issues"
   },
-  "license": "All-Rights-Reserved",
-  "icon": "assets/structure_music/icon.png",
+  "license": "MIT",
+  "icon": "pack.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -25,6 +26,6 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": ">=${minecraft_version}"
+    "minecraft": ">=1.21-beta.3"
   }
 }
