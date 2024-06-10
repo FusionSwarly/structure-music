@@ -6,6 +6,7 @@
   "description": "Allows for structures to have background music.",
   "authors": ["Fusion_MC"],
   "contact": {
+    "homepage": "https://modrinth.com/project/structure-dependent-music",
     "sources": "https://github.com/FusionSwarly/structure-music",
     "issues": "https://github.com/FusionSwarly/structure-music/issues"
   },

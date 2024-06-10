@@ -92,7 +92,7 @@
         "volume": 0.8
       },
       {
-        "name": "music/game/eld_unkown",
+        "name": "music/game/eld_unknown",
         "stream": true,
         "volume": 0.4,
         "weight": 2
