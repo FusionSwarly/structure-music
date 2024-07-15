@@ -26,6 +26,7 @@ import java.util.*;
 
 public class StructureDependentMusic implements ModInitializer {
     public static Map<PlayerEntity, Identifier> playerStructures = new HashMap<>();
+    private static int ticks = 0;
     public void setCurrentStructure(PlayerEntity player, World world, String structure) {
         @Nullable
         Identifier oldStructure = playerStructures.get(player);
@@ -72,10 +73,15 @@ public class StructureDependentMusic implements ModInitializer {
             playerStructures.remove(handler.getPlayer());
         });
         ServerTickEvents.START_WORLD_TICK.register((world) -> {
+            if (ticks > 0) {
+                ticks -= 1;
+                return;
+            }
             List<ServerPlayerEntity> players = world.getPlayers();
             for (ServerPlayerEntity player : players) {
                 checkAllStructures(world, player);
             }
+            ticks = 250;
         });
     }
 }
