@@ -43,6 +43,7 @@ public class ModConfig {
         ret.put("nova_structures:toxic_lair", new StructureMusicSound("nova_structures:music.dungeon.toxic_lair", 6000, 18000, false));
         ret.put("nova_structures:undead_crypt", new StructureMusicSound("nova_structures:music.dungeon.crypt", 6000, 18000, false));
         ret.put("nova_structures:creeping_crypt", new StructureMusicSound("nova_structures:music.dungeon.crypt", 6000, 18000, false));
+        ret.put("nova_structures:shrine_combat_tier_6", new StructureMusicSound("structure_music:music.dungeon.trial_chambers", 6000, 18000, false));
         return ret;
     }
 

@@ -46,7 +46,7 @@ public class StructureDependentMusic implements ModInitializer {
         ServerPlayNetworking.send((ServerPlayerEntity) player, new StructureChangedPayload(newStructure));
     }
     public void checkAllStructures(ServerWorld world, PlayerEntity player) {
-        Registry<Structure> registry = world.getStructureAccessor().getRegistryManager().get(RegistryKeys.STRUCTURE);
+        Registry<Structure> registry = world.getStructureAccessor().getRegistryManager().getOrThrow(RegistryKeys.STRUCTURE);
         IndexedIterable<RegistryEntry<Structure>> structures = registry.getIndexedEntries();
         boolean structureFound = false;
         for (RegistryEntry<Structure> structure: structures) {
